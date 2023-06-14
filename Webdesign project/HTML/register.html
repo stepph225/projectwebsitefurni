@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/index.css"></link>
+    <title>Register Here!</title>
+</head>
+<body>
+    <section class="intro">
+        <h1>Welcome to FurniWorld!</h1>
+        <h2>Discover a world of stylish furniture pieces for your dream home.</h2>
+        <nav>
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/HTML/products.html">Products</a></li>
+              <li><a href="/HTML/gallery.html">Gallery</a></li>
+              <li><a href="/HTML/about.html">About Us</a></li>
+              <li><a href="/HTML/contact.html">Contact</a></li>
+              <li><a href="/HTML/register.html">Register</a></li>
+              <li><a href="/HTML/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="registration-container">
+        <h2>Registration</h2>
+        <form action="/HTML/confirmation.html">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <p><br></p>
+          <div class="gender-group">
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+          </div>
+          <p><br></p>
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required>
+          <p><br></p>
+          <label for="phone">Phone Number:</label>
+          <input type="text" id="phone" name="phone" required>
+          <p><br></p>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+          <p><br></p>
+          <button type="submit">Register</button>
+          <p><br></p>
+        </form>
+      </div>
+</body>
+</html>

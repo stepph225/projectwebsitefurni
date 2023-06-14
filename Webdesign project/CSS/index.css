@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Satisfy&display=swap');
+body {
+    margin: 3%;
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+    border:5px solid rgb(152, 61, 61);
+  }
+  
+  nav {
+   padding: 15px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 65px;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #e24444;
+  }
+.intro{
+    background-image: url('/Images/banner.jpg');
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    background-size: cover;
+    border: 1px solid;
+    font-size: 40px;
+    margin: 0;
+}
+
+.intro h1{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 60px;
+    color: rgb(55, 125, 118);
+    text-align: center;
+    padding-top: 2%;
+    margin: 0;
+}
+
+.intro h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 5%;
+    padding-bottom: 2%;
+    color:blue;
+}
+
+.info{
+    
+    padding-top: 5%;
+    padding-bottom:2.5%;
+}
+
+.examples{
+    padding-top: 2.5%;
+    padding-bottom: 10%;
+}
+
+.examples h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.testimonial-section {
+  background-color: antiquewhite;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonial-section h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+}
+
+.testimonial blockquote {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.testimonial cite {
+  display: block;
+  color: #666;
+  margin-top: 10px;
+  font-style: italic;
+}
+.project-section h2{
+  text-align: center;
+  font-family:  'Satisfy', sans-serif;
+  font-size: 45px;
+  text-decoration: underline;
+}
+.under-header{
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 2%;
+  top: 5%;
+  margin: 3em;
+}
+.project-item{
+    border: 3px solid black;
+    display: flex;
+    margin: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: antiquewhite;
+}
+.project-item h3{
+  text-align: center;
+  font-size: 35px;
+  
+}
+
+.project-item p{
+  text-align: center;
+  display: inline;
+  font-size: 15px;
+  margin-top: 8%;
+  padding-left: 2.5%; /*will change with image*/ 
+  padding-right: 2.5%;
+}
+.img1{
+  height: 45%;
+  width: 35%;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.img2{
+  height: 45%;
+  width: 35%;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.img3{
+  height: 45%;
+  width: 35%;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.img4{
+  height: 45%;
+  width: 20%;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.img5{
+  height: 25%;
+  width: 20%;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.img6{
+  height: 45%;
+  width: 30%;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.img7{
+  height: 45%;
+  width: 35%;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.img8{
+  height: 45%;
+  width: 20%;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.login-container {
+  max-width: 400px;
+  margin: 10% auto;
+  background-color:antiquewhite;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.login-container a{
+  text-decoration: none;
+  color: #fff;
+}
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login-container button:hover {
+  background-color: #45a049;
+}
+.confirmation-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.confirmation-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.registration-container {
+  max-width: 400px;
+  margin: 10% auto;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font: 35px;
+}
+
+.registration-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="number"],
+.registration-container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.registration-container .gender-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.registration-container .gender-group label {
+  margin-right: 10px;
+}
+
+.registration-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registration-container button:hover {
+  background-color: #45a049;
+}
+.terms{
+  text-align: center;
+  margin: 5% auto;
+  border: 5px dotted burlywood;
+  background-color: antiquewhite;
+}
+.terms h1{
+  font-family: 'Satisfy', sans-serif;
+  font-size: 55px;
+  text-decoration: underline;
+  color: blue;
+  padding-bottom: 2%;
+}
+.terms li{
+  margin: 2.5%;
+}
+.container h1{
+  font-family: 'Satisfy', sans-serif;
+  font-size: 65px;
+  text-decoration: underline;
+  text-align: center;
+  color: coral;
+}
+.container h2{
+  text-align: center;
+}
+.container p{
+  text-align: center;
+}
+.founders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.founder {
+  width: 200px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.founder img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.contact {
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact form {
+  margin-top: 20px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact textarea {
+  height: 100px;
+}
+
+.contact button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact button[type="submit"]:hover {
+  background-color: #45a049;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.gallery h2{
+  text-align: center;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 75px;
+  text-decoration: underline;
+  margin: 27% auto;
+  color:rgb(82, 79, 75);
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px 5px 0 0;
+}
+
+.item-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.item-overlay h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.item-overlay p {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+footer{
+  padding: 10px;
+  text-align: center;
+  background-color: aquamarine;
+}
+
